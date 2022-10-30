@@ -1,0 +1,67 @@
+:root{
+    --primary-color: rgb(11, 189, 11);
+    --secondary-color: #000000b8;
+}
+
+
+.content{
+    display: flex;
+    align-items: center;
+}
+textarea{
+    margin: 1rem auto;
+    height: 50vh;
+    flex: 40%;
+}
+#output{
+    border: solid 1px var(--secondary-color);
+    margin: 1rem;
+    height: 50vh;
+    padding: 1rem;
+    text-align: left;
+    flex: 40%;
+}
+
+
+.Header{
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 2rem;
+    margin: 0%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.button{
+    padding: 2rem;
+    justify-content: space-around;
+}
+button{
+    background-color: var(--primary-color);
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    flex: 20%;
+}
+
+
+footer{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    /* display: block; */
+}
+footer h3{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 0% auto;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
